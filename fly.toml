@@ -1,0 +1,28 @@
+# fly.toml app configuration file generated for devdate on 2024-06-23T19:44:32+02:00
+#
+# See https://fly.io/docs/reference/configuration/ for information about how to use this file.
+#
+
+app = 'devdate'
+primary_region = 'ams'
+
+[build]
+  image = 'supremegreeder/datingapp:latest'
+
+[env]
+  ASPNETCORE_URLS="http://+:8080"
+  CloudinarySettings__Cloudname="dt1bwg0af"
+  CloudinarySettings__ApiKey="928759448546793"
+
+[http_service]
+  internal_port = 8080
+  force_https = true
+  auto_stop_machines = true
+  auto_start_machines = true
+  min_machines_running = 0
+  processes = ['app']
+
+[[vm]]
+  memory = '1gb'
+  cpu_kind = 'shared'
+  cpus = 1

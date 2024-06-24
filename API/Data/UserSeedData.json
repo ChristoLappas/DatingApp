@@ -108,7 +108,7 @@
         "Country": "Finland",
         "Photos": [
             {
-                "Url": "https://randomuser.me/api/portraits/men/30.jpg",
+                "Url": "https://randomuser.me/api/portraits/men/20.jpg",
                 "IsMain": true
             }
         ]
@@ -127,7 +127,7 @@
         "Country": "Greenland",
         "Photos": [
             {
-                "Url": "https://randomuser.me/api/portraits/men/87.jpg",
+                "Url": "https://randomuser.me/api/portraits/men/81.jpg",
                 "IsMain": true
             }
         ]
