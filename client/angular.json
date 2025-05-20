@@ -107,7 +107,7 @@
             "assets": [
               "src/favicon.ico",
               "src/assets",
-              "src/real.mp4"
+              "src/assets/real.mp4"
             ],
             "styles": [
               "src/styles.css"
