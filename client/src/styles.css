@@ -44,4 +44,16 @@
     border-top: 1px solid #eee;
     padding: 15px 0;
   }
+
+  #static-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  pointer-events: none; 
+  opacity: 0.5; 
+  z-index: 9999; 
+}
   
